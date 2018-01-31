@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	<title>ringer</title>
+
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+
+	<style type="text/css">
+	body
+	{
+		margin:1em;
+	}
+	</style>
+</head>
+
+<body>
+	<!-- modals -->
+	<div class="modal" id="openload">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="content-title">Openload Stats</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+
+				<div class="modal-body">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Email</th>
+								<th>Joined</th>
+								<th>Storage Left</th>
+								<th>Storage Used</th>
+								<th>Balance</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>2</td>
+								<td>3</td>
+								<td>4</td>
+								<td>5</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id="primewire">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="content-title">Primewire Search</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+
+				<div class="modal-body">
+					body
+				</div>
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id="rapid">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="content-title">Rapid Video</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+
+				<div class="modal-body">
+					body
+				</div>
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--end modals -->
+
+	<div class="container">
+		<h1>ringer</h1>
+
+		<div class="btn btn-group" role="group" aira-label="menu example">
+			<button type="button" data-toggle="modal" class="btn btn-primary" data-target="#openload">Openload</button>
+			<button type="button" data-toggle="modal" class="btn btn-primary" data-target="#primewire">Primewire</button>
+			<button type="button" data-toggle="modal" class="btn btn-primary" data-target="#rapid">Rapid Video</button>
+		</div>
+
+		<form id="frmSearch">
+			<div class="form-group row">
+				<div class="col-md-6">
+						<input type="text" class="form-control" id="terms" />
+				</div>
+
+				<div class="col-md-1">
+					<button class="btn btn-primary">Search</button>
+				</div>
+				
+				<div class="col-md-5">
+					<textarea class="form-control" id="savedLinks" rows="5"></textarea>
+				</div>
+			</div>
+		</form>
+
+		<hr/>
+
+		<div id="ytsearch">
+		</div>
+	</div>
+
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+	<script src="../js/search.js"></script>
+	<script src="fa/svg-with-js/js/fontawesome-all.min.js"></script>
+
+</body>
+
+</html>

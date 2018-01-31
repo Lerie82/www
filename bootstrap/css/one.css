@@ -1,0 +1,38 @@
+html,body
+{
+	height:100%;
+}
+
+.hero-image
+{
+	background: url("../img/coffee.jpeg");
+	height: 55%;
+	position: relative;
+	background-size: cover;
+}
+
+.overlay
+{
+	background-color: #efefef;
+	opacity: 0.5;
+}
+
+.info-block
+{
+	padding: 1.5em;
+}
+
+.info-block p
+{
+	background-color: #0275d8;
+	padding: 1em;
+	opacity: 0.9;
+}
+
+.info-block h3
+{
+	background-color: #0275d8;
+	padding:0.5em;
+	color:#fff;
+	margin-bottom: 0;
+}
